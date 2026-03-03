@@ -1,0 +1,172 @@
+/* =========================
+   Global Layout Wrapper
+========================= */
+
+.app-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Offset for fixed header */
+.main-content {
+  padding-top: 80px; /* adjust based on header height */
+}
+
+
+/* =========================
+   Typography
+========================= */
+
+.main-heading {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #f8f4f4;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sub-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f8f6f6;
+  margin-bottom: 15px;
+}
+
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.main-section {
+  width: 100%;
+  min-height: 80vh; /* proper usage instead of invalid flex */
+  background-color: #1c2026;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+
+/* =========================
+   GENERIC SECTION WRAPPER
+========================= */
+
+.section-section {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+  border-bottom: 1px solid #111112;
+}
+
+
+/* =========================
+   LEFT HEADING COLUMN
+========================= */
+
+.subsection-heading {
+  width: 20%;
+  background-color: #26354a;
+  display: flex;                 /* required for alignment */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+
+/* =========================
+   RIGHT CONTENT COLUMN
+========================= */
+
+.sub-section {
+  width: 80%;
+  background-color: #101721;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+/* =========================
+   SECTION CONTENT
+========================= */
+
+.section-content {
+  width: 100%;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.section-details {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #ffffff;
+  text-align: justify;
+}
+
+.list {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #ffffff;
+  padding-left: 20px;
+}
+
+.list li {
+  margin-bottom: 10px;
+}
+
+
+/* =========================
+   SKILLS SECTION
+========================= */
+
+.skill-section {
+  width: 100%;            /* FIXED — no more 130% */
+  background-color: #1c2026;
+}
+
+.skill-content {
+  width: 100%;
+}
+
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 900px) {
+  .section-section {
+    flex-direction: column;
+  }
+
+  .subsection-heading,
+  .sub-section {
+    width: 100%;
+  }
+
+  .subsection-heading {
+    padding: 15px;
+  }
+
+  .sub-section {
+    padding: 25px;
+  }
+
+  .main-heading {
+    font-size: 2.5rem;
+  }
+
+  .section-heading {
+    font-size: 2rem;
+  }
+}
