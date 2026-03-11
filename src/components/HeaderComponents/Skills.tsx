@@ -1,19 +1,22 @@
-import "../../components/css/Home.css";
-import SkillsTable from "../Skills/SkillsTable";
+import SkillsTable from '../Skills/SkillsTable';
 
-function AboutMe() {
+interface SkillsProps {
+  sectionRef: React.RefObject<HTMLElement>;
+}
+
+function Skills({ sectionRef }: SkillsProps) {
   return (
-    <>
-      <main className="main-content">
-        <section className="main-section">
-          <div className="section-content">
-          <h1 className="main-heading">Taking Up the Skills</h1>
-            <SkillsTable/>
+    <main ref={sectionRef}>
+      <section className="main-section">
+        <div className="section-content" style={{ alignItems: 'flex-start' }}>
+          <h1 className="main-heading">My Technical Toolbox</h1>
+          <div className="sub-section">
+            <SkillsTable />
           </div>
-        </section>
-      </main>
-    </>
+        </div>
+      </section>
+    </main>
   );
 }
 
-export default AboutMe;
+export default Skills;

@@ -1,41 +1,77 @@
+
 .table-container {
   width: 100%;
-  margin: 2rem auto;
-  background-color: #101721;
-  padding: 0;
-  border-radius: 8px;
+  margin: 0 auto;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 6px 32px rgba(0,0,0,0.12), 0 1.5px 6px rgba(0,0,0,0.08);
+  background: rgba(28,32,38,0.98);
+  padding: 32px 0 32px 0;
+  transition: box-shadow 0.2s;
 }
 
 /* Table Styling */
 .skills-table {
   width: 100%;
-  border-collapse: collapse;
-  background-color: #101721;
-  color: #ffffff;
+  max-width: 900px;
+  border-collapse: separate;
+  border-spacing: 0;
+  background-color: transparent;
+  color: #f8f4f4;
+  font-size: 1.08rem;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 1.5px 6px rgba(0,0,0,0.08);
 }
 
 /* Header */
 .skills-table th {
-  background-color: #26354a;
-  padding: 12px;
-  font-weight: 600;
-  border: 1px solid #2f3f55;
+  background: linear-gradient(90deg, #26354a 60%, #3a4a6a 100%);
+  padding: 18px 14px;
+  font-weight: 700;
+  border: none;
+  font-size: 1.18rem;
+  color: #f8f4f4;
+  letter-spacing: 0.5px;
+  text-align: left;
 }
 
 /* Table Cells */
 .skills-table td {
-  padding: 12px;
-  border: 1px solid #2f3f55;
+  padding: 15px 14px;
+  border: none;
+  border-bottom: 1px solid #23272f;
   text-align: left;
+  background-color: transparent;
+  vertical-align: middle;
 }
 
 /* Alternating Rows */
 .skills-table tr:nth-child(even) {
-  background-color: #18222f;
+  background-color: #23272f;
 }
 
 /* Hover Effect */
 .skills-table tr:hover {
-  background-color: #1f2d3d;
-  transition: 0.2s ease-in-out;
+  background-color: #31405a;
+  transition: background 0.18s;
+}
+
+
+/* Responsive Design */
+@media (max-width: 700px) {
+  .table-container {
+    padding: 12px 0 12px 0;
+    border-radius: 10px;
+  }
+  .skills-table {
+    font-size: 0.98rem;
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  .skills-table th, .skills-table td {
+    padding: 10px 6px;
+  }
 }

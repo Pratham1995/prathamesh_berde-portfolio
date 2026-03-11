@@ -1,24 +1,22 @@
-import "../../components/css/Home.css";
-import SeniorSoftwareProjects from "../Projects/SeniorSoftwareProjects";
-import SoftwareEngineerProjects from "../Projects/SoftwareEngineerProjects";
-import AcademicProjects from "../Projects/AcademicProjects";
 
-function AboutMe() {
+import { FaUserCog } from 'react-icons/fa';
+import ProjectsSummary from '../Projects/ProjectsSummary';
+
+interface ProjectsProps {
+  sectionRef: React.RefObject<HTMLElement>;
+}
+
+function Projects({ sectionRef }: ProjectsProps) {
   return (
-    <>
-      <main className="main-content">
-        <section className="main-section">
-          <div className="section-content">
-          <h1 className="main-heading">Stories Through Code</h1>
-            <h2 className="section-heading">Professional Projects</h2>
-            <SeniorSoftwareProjects/>
-            <SoftwareEngineerProjects/>
-            <AcademicProjects/>
-          </div>
-        </section>
-      </main>
-    </>
+    <main  ref={sectionRef}>
+      <section className="main-section">
+        <div className="section-content" style={{ alignItems: 'flex-start' }}>
+          <h1 className="main-heading">Story Through Code</h1>
+          <ProjectsSummary />
+        </div>
+      </section>
+    </main>
   );
 }
 
-export default AboutMe;
+export default Projects;

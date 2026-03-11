@@ -5,7 +5,7 @@
   width: 100%;
   top: 0;
   left: 0;
-  background-color: #041936; /* dark gray */
+  background-color: #0f2645; /* dark gray */
   color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.358);
   z-index: 1000;
@@ -17,13 +17,13 @@
   margin-left: 0; /* ensures extreme left */
 }
 
-.profilepic{
-  width: 35px;        /* adjust size */
-  height: 35px;       /* adjust size */
+.profilepic {
+  width: 35px; /* adjust size */
+  height: 35px; /* adjust size */
   object-fit: contain; /* preserve aspect ratio */
   margin-right: 25px; /* spacing between image and text */
   border-radius: 4px;
-  margin-left: 0;/* optional: rounded edges */
+  margin-left: 0; /* optional: rounded edges */
 }
 
 .header-container {
@@ -34,14 +34,15 @@
 }
 
 .logo {
-  font-size: 2.0rem;
+  font-size: 2rem;
   font-weight: bold;
   margin-right: 104px;
   margin-left: 0;
+  font-style: italic;
   color: white;
 }
 
-.nav-links{
+.nav-links {
   margin-left: 54px;
   text-decoration: none;
   color: white;
@@ -50,10 +51,10 @@
 }
 
 .nav-links:hover {
-  color: #3b82f6; /* blue hover */
+  color: #334768; /* blue hover */
 }
 
-.button{
+.button {
   margin-left: 100px;
   background-color: #f10707;
   border: none; /* Remove border */

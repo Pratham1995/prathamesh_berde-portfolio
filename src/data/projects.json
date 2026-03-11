@@ -1,0 +1,43 @@
+[
+  {
+    "icon": "layers",
+    "title": "Senior Software Engineer Projects",
+    "children": [
+    "-Automated Return File Generation:Developed a Java-based service to automate return file generation, reducing QA and UAT manual effort by 80%.",
+    "-Transmission Dashboard UI (React.js + Java Spring Boot): Created a real-time dashboard for monitoring payment file transmission, improving operational efficiency by 85%.",
+    "-Single Transaction Reversal Service: Led a team to design a new Spring Boot microservice for handling single transaction reversals, ensuring seamless integration via Kafka messaging.",
+    "-Database Optimization: Replaced direct database calls with RESTful APIs, enhancing performance and mitigating traffic-related issues",
+    "-Production Issue Resolution: Designed and implemented four REST APIs that reduced manual intervention by 75%, addressing partial ingestion issues.",
+    "-Automated Dishonored Transactions Processing: Developed a Java-based service for processing dishonored transactions, reducing manual processing time by 60%.",
+    "-Led the evaluation and migration from VisualCron to Stonebranch, enabling multi-user access, reducing costs, and implementing custom features like S3 integration and remote file operations.",
+    "-Developed a React-based UI to display exception data with disposition capabilities for business users; integrated with a Java backend to fetch records and implemented download functionality via buttons for Excel and PDF reports.",
+    "-Migrated critical payment workflows from Visual Cron to Stonebranch UAC, improving system access reliability and reducing operational costs by eliminating the need for Visual Cron license renewal.",
+    "-Developed a React-based service for managing rules in wire transactions, improving efficiency and rule automation"
+    ]
+  },
+  {
+    "icon": "code2",
+    "title": "Software Engineer Projects",
+    "children": [
+    "-Notification of Change (NOC) File Processing: Developed a Spring Boot service to ingest NOC based return files, improving data accuracy for financial transactions.",
+    "-Acknowledgment File Reconciliation Service: Built a Visual Cron job scheduler to trigger ingestion endpoints dynamically, ensuring comprehensive reconciliation of acknowledgment files.",
+    "-Federal Holiday Notifications: Enhanced existing Java services to incorporate real-time holiday alerts, improving operational awareness.",
+    "-Built a Spring Boot service integrating with GI-Act to fetch real-time customer account data, replacing a legacy system dependent on weekly stale updates. Hosted on Cloud Foundry with MySQL, achieving 100% test coverage to ensure stability and reliability",
+    "-Reduced data masking latency by 83% by implementing a selective masking algorithm that preserved security and data integrity.",
+    "-Improved development efficiency by integrating New Relic and JMeter across 12 microservices, contributing to a 20% overall performance improvement.",
+    "Led a team-wide initiative to enforce test coverage thresholds in code reviews, increasing coverage by 20% and reducing SonarQube issues."
+    ]
+  },
+  {
+    "icon": "graduationCap",
+    "title": "Academic Projects",
+    "children": [
+      "-Automatic Timetable Generation System: Developed a Spring Boot and MySQL application (Java 8) to automatically generate class schedules based on faculty-subject mappings, ensuring no lecture overlaps and proper break management",
+      "-Android Music Application: Built an Android app that loads and organizes downloaded .mp3 files with navigation features and MATLAB-based emotion detection exploration",
+      "-IETE Event Website: Developed a responsive website using Java, HTML, and CSS for a college IETE event",
+      "-Facility Management System: Created a Spring Boot and MySQL-based room management service with JUnit testing and Selenium automation",
+      "-Movie Recommendation System: Developed a Python-based recommendation system using a dataset to suggest movies based on user preferences",
+      "-Two-Player Chess Game: Developed a console-based chess game in C implementing piece movement validation and turn-based gameplay"
+    ]
+  }
+]

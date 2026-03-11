@@ -1,0 +1,37 @@
+[
+  {
+    "icon": "👨‍💻",
+    "title": "Brief Bio",
+    "content": "Senior Software Engineer with 6+ years of experience designing and building scalable Java/Spring Boot microservices and React-based enterprise applications. I specialize in REST API development, Kafka-driven event processing, and performance optimization within high-volume financial systems. My work focuses on building resilient, maintainable, and high-performing systems that directly improve operational efficiency and reliability. I bring strong expertise in backend architecture, distributed systems, and modern frontend integration, while actively expanding my AWS and cloud-native capabilities to design fully scalable, production-grade solutions."
+  },
+  {
+    "icon": "🎯",
+    "title": "Professional Focus",
+    "content": "Focused on building robust, scalable, and maintainable backend systems with a passion for clean code and best practices."
+  },
+  {
+    "icon": "🏆",
+    "title": "Key Accomplishments",
+    "content": "Reduced manual QA effort by 80% through automation, improved operational efficiency by 85% with real-time dashboards, and led successful migrations to modern platforms."
+  },
+  {
+    "icon": "⏳",
+    "title": "Year Of Experience",
+    "content": "6+ years in software engineering, specializing in financial technology and enterprise solutions."
+  },
+  {
+    "icon": "🚀",
+    "title": "My Journey",
+    "content": "Progressed from junior developer to senior engineer, consistently delivering high-impact solutions and mentoring team members."
+  },
+  {
+    "icon": "🎯",
+    "title": "Career Goals",
+    "content": "To lead engineering teams in designing cloud-native, scalable systems and to continuously expand expertise in AWS and distributed architectures."
+  },
+  {
+    "icon": "🎨",
+    "title": "Personal Interests",
+    "content": "Enjoys hackathons, open-source contributions, and exploring new technologies in cloud and AI."
+  }
+]

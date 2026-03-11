@@ -1,5 +1,5 @@
-import React from "react";
-import "../css/SkillsTable.css";
+import React from 'react';
+import '../css/SkillsTable.css';
 
 const SkillsTable: React.FC = () => {
   return (
@@ -35,8 +35,8 @@ const SkillsTable: React.FC = () => {
           <tr>
             <td>General & Build Tools</td>
             <td>
-              Eclipse, Anaconda, IntelliJ, Android Studio, MVC,
-              Spring Tool Suite, Spring Boot, SonarQube, Jenkins
+              Eclipse, Anaconda, IntelliJ, Android Studio, MVC, Spring Tool
+              Suite, Spring Boot, SonarQube, Jenkins
             </td>
           </tr>
         </tbody>
