@@ -1,5 +1,4 @@
 
-import { FaUserCog } from 'react-icons/fa';
 import ProjectsSummary from '../Projects/ProjectsSummary';
 
 interface ProjectsProps {
